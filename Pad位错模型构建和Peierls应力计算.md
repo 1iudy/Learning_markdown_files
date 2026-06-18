@@ -232,14 +232,14 @@ run 0
 next a
 jump Peierls_in.lmp loop
 ```
-由于theta是90du得到的应力曲线：
+由于theta是90°固定值，得到的应力曲线：
 ![剪切控制派纳力曲线](/imgs/2026-06-18/oc8uwsEih1yRXGBB.png)
 
 3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzcwNzM1MDEsMTQ3OTU2NjQwNywzMT
-MwMjU4OTIsLTE5MDgxNTY1NTUsMTc2NjQzNDM4MywtNDI0ODU4
-NTI3LDE0MzI3MzczMywtNjk2OTI2NDA0LDE1MzQ3NTAyMjAsMT
-EwMzU5OTI0MywxNjY3ODczNTgsMTM5MDYwMTk0NSwtMTc1ODc3
-MTQzM119
+eyJoaXN0b3J5IjpbMTY1Mzk5Nzg0NCwxNDc5NTY2NDA3LDMxMz
+AyNTg5MiwtMTkwODE1NjU1NSwxNzY2NDM0MzgzLC00MjQ4NTg1
+MjcsMTQzMjczNzMzLC02OTY5MjY0MDQsMTUzNDc1MDIyMCwxMT
+AzNTk5MjQzLDE2Njc4NzM1OCwxMzkwNjAxOTQ1LC0xNzU4Nzcx
+NDMzXX0=
 -->
