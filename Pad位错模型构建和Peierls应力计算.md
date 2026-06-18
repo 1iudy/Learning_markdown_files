@@ -127,9 +127,11 @@ print "All done"
 ```
 根据结果绘制应力应变曲线：
 ![位移控制派纳力曲线](/imgs/2026-06-18/xX1UKRh3HBvhAgyz.png)
+Peierls应力大约在507MPa左右收敛
+2. **应变加载方式**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDk0ODE2NTMsMTQ3OTU2NjQwNywzMT
+eyJoaXN0b3J5IjpbLTIxMjk2OTM5NTYsMTQ3OTU2NjQwNywzMT
 MwMjU4OTIsLTE5MDgxNTY1NTUsMTc2NjQzNDM4MywtNDI0ODU4
 NTI3LDE0MzI3MzczMywtNjk2OTI2NDA0LDE1MzQ3NTAyMjAsMT
 EwMzU5OTI0MywxNjY3ODczNTgsMTM5MDYwMTk0NSwtMTc1ODc3
