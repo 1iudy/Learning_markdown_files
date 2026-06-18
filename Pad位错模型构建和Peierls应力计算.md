@@ -35,11 +35,11 @@ atomsk Nb_unitcell.xsf -duplicate 81 40 1 -deform X 0.0061728 0.0 top.xsf
 参考内容：[On the significance of model design in atomistic calculations of the Peierls stress in Nb](https://www.sciencedirect.com/science/article/pii/S0927025620306418#b0135)
 文章中提供了三种加载方式，分别为位移加载、剪切加载、应力加载，并提供了相应的输入文件模板：[wrj2018/CMS_2020](https://github.com/wrj2018/CMS_2020/tree/master)
 1. **位移加载方式**
-
+通过固定上下各为6$\mathring{A}$大小边界层并向
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMDI1ODkyLC0xOTA4MTU2NTU1LDE3Nj
-Y0MzQzODMsLTQyNDg1ODUyNywxNDMyNzM3MzMsLTY5NjkyNjQw
-NCwxNTM0NzUwMjIwLDExMDM1OTkyNDMsMTY2Nzg3MzU4LDEzOT
-A2MDE5NDUsLTE3NTg3NzE0MzNdfQ==
+eyJoaXN0b3J5IjpbMTU5NTA5NTEzNywzMTMwMjU4OTIsLTE5MD
+gxNTY1NTUsMTc2NjQzNDM4MywtNDI0ODU4NTI3LDE0MzI3Mzcz
+MywtNjk2OTI2NDA0LDE1MzQ3NTAyMjAsMTEwMzU5OTI0MywxNj
+Y3ODczNTgsMTM5MDYwMTk0NSwtMTc1ODc3MTQzM119
 -->
