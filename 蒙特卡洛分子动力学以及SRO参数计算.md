@@ -8,10 +8,12 @@
 atomsk --create bcc 3.36 Nb -duplicate 20 20 20 Nb_supercell.xsf
 ```
 超胞结构共16000个原子，使用Ta、Hf、Zr分别替代原有Nb：
-
+```
+atomsk Nb_supercell.xsf -select random 4000 Nb -sub Nb Ta -select random 800 Nb -sub Nb Hf -select random 7200 Nb -sub Nb Zr Nb25Ta25Hf5Zr45.xsf
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTgwMzAyMywtNTI2NDI2MzMxLDE5Nz
-c1ODQwOCw0NjUwMTk5ODQsMTIzMzU4NzYwMiw3ODEyODk1NzIs
-MTYyMTcxMDIwOCwtMTI4Mjc4ODU2NCwxMzYxMDI3OTYzLDEzNj
-EwMjc5NjNdfQ==
+eyJoaXN0b3J5IjpbMTc2MDAxMDMyOCwyMTM5ODAzMDIzLC01Mj
+Y0MjYzMzEsMTk3NzU4NDA4LDQ2NTAxOTk4NCwxMjMzNTg3NjAy
+LDc4MTI4OTU3MiwxNjIxNzEwMjA4LC0xMjgyNzg4NTY0LDEzNj
+EwMjc5NjMsMTM2MTAyNzk2M119
 -->
