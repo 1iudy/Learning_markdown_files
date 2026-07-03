@@ -22,11 +22,15 @@ random 10
 ```
 atomsk --create bcc 3.36 Nb Nb_seed.xsf
 ```
-
+使用polycrystal命令生成Nb多晶结构：
+```
+ atomsk --polycrystal Nb_seed.xsf polycrystal.txt Nb_polycrystal.cfg
+ ```
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Nzg2ODA3MDMsMjM0ODE2MjM0LDExOD
-YzOTYyOTQsMTc2MDAxMDMyOCwyMTM5ODAzMDIzLC01MjY0MjYz
-MzEsMTk3NzU4NDA4LDQ2NTAxOTk4NCwxMjMzNTg3NjAyLDc4MT
-I4OTU3MiwxNjIxNzEwMjA4LC0xMjgyNzg4NTY0LDEzNjEwMjc5
-NjMsMTM2MTAyNzk2M119
+eyJoaXN0b3J5IjpbLTE5NTQ3MDE4MjIsLTE3Nzg2ODA3MDMsMj
+M0ODE2MjM0LDExODYzOTYyOTQsMTc2MDAxMDMyOCwyMTM5ODAz
+MDIzLC01MjY0MjYzMzEsMTk3NzU4NDA4LDQ2NTAxOTk4NCwxMj
+MzNTg3NjAyLDc4MTI4OTU3MiwxNjIxNzEwMjA4LC0xMjgyNzg4
+NTY0LDEzNjEwMjc5NjMsMTM2MTAyNzk2M119
 -->
