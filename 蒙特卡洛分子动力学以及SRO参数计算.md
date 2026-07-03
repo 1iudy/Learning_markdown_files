@@ -7,9 +7,10 @@
 ```
 atomsk --create bcc 3.36 Nb -duplicate 20 20 20 Nb_supercell.xsf
 ```
-超胞结构共16000个原子，
+超胞结构共16000个原子，使用Ta、Hf、Zr分别替代原有Nb：
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjIxMTk1NTgsMTk3NzU4NDA4LDQ2NT
-AxOTk4NCwxMjMzNTg3NjAyLDc4MTI4OTU3MiwxNjIxNzEwMjA4
-LC0xMjgyNzg4NTY0LDEzNjEwMjc5NjMsMTM2MTAyNzk2M119
+eyJoaXN0b3J5IjpbLTUyNjQyNjMzMSwxOTc3NTg0MDgsNDY1MD
+E5OTg0LDEyMzM1ODc2MDIsNzgxMjg5NTcyLDE2MjE3MTAyMDgs
+LTEyODI3ODg1NjQsMTM2MTAyNzk2MywxMzYxMDI3OTYzXX0=
 -->
