@@ -13,6 +13,7 @@ atomsk Nb_supercell.xsf -select random 4000 Nb -sub Nb Ta -select random 800 Nb 
 ```
 ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-03/R3jzC4oFjNKwAFq8.png)
 纳米多晶结构构建参考atomsk官方教程：
+
 文献构建的结构尺寸为13×13×13nm³，假设晶粒数量为10，写入polycrystal.txt文件：
 ```
 box 130 130 130
@@ -35,10 +36,11 @@ atomsk --create bcc 3.36 Nb Nb_seed.xsf
  共有115841原子
  ## **2. MC/MD**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NjMxNzE1NCwtOTY4MTYwNzk2LDg1NT
-g4OTY4NywtNDQ1NTIzMTI1LC0yMDA0MTY5NDM0LC0xNzc4Njgw
-NzAzLDIzNDgxNjIzNCwxMTg2Mzk2Mjk0LDE3NjAwMTAzMjgsMj
-EzOTgwMzAyMywtNTI2NDI2MzMxLDE5Nzc1ODQwOCw0NjUwMTk5
-ODQsMTIzMzU4NzYwMiw3ODEyODk1NzIsMTYyMTcxMDIwOCwtMT
-I4Mjc4ODU2NCwxMzYxMDI3OTYzLDEzNjEwMjc5NjNdfQ==
+eyJoaXN0b3J5IjpbNDIyNTA4MzA0LDEwNzYzMTcxNTQsLTk2OD
+E2MDc5Niw4NTU4ODk2ODcsLTQ0NTUyMzEyNSwtMjAwNDE2OTQz
+NCwtMTc3ODY4MDcwMywyMzQ4MTYyMzQsMTE4NjM5NjI5NCwxNz
+YwMDEwMzI4LDIxMzk4MDMwMjMsLTUyNjQyNjMzMSwxOTc3NTg0
+MDgsNDY1MDE5OTg0LDEyMzM1ODc2MDIsNzgxMjg5NTcyLDE2Mj
+E3MTAyMDgsLTEyODI3ODg1NjQsMTM2MTAyNzk2MywxMzYxMDI3
+OTYzXX0=
 -->
