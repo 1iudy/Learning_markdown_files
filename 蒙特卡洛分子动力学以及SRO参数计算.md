@@ -13,9 +13,9 @@ atomsk Nb_supercell.xsf -select random 4000 Nb -sub Nb Ta -select random 800 Nb 
 ```
 ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-03/R3jzC4oFjNKwAFq8.png)
 纳米多晶结构构建参考atomsk官方教程：
-文献构建的结构尺寸为13×13×13nm³
+文献构建的结构尺寸为13×13×13nm³，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4ODA1MjE4LDExODYzOTYyOTQsMTc2MD
+eyJoaXN0b3J5IjpbMjM0ODE2MjM0LDExODYzOTYyOTQsMTc2MD
 AxMDMyOCwyMTM5ODAzMDIzLC01MjY0MjYzMzEsMTk3NzU4NDA4
 LDQ2NTAxOTk4NCwxMjMzNTg3NjAyLDc4MTI4OTU3MiwxNjIxNz
 EwMjA4LC0xMjgyNzg4NTY0LDEzNjEwMjc5NjMsMTM2MTAyNzk2
