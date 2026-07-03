@@ -11,9 +11,10 @@ atomsk --create bcc 3.36 Nb -duplicate 20 20 20 Nb_supercell.xsf
 ```
 atomsk Nb_supercell.xsf -select random 4000 Nb -sub Nb Ta -select random 800 Nb -sub Nb Hf -select random 7200 Nb -sub Nb Zr Nb25Ta25Hf5Zr45.xsf
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDAxMDMyOCwyMTM5ODAzMDIzLC01Mj
-Y0MjYzMzEsMTk3NzU4NDA4LDQ2NTAxOTk4NCwxMjMzNTg3NjAy
-LDc4MTI4OTU3MiwxNjIxNzEwMjA4LC0xMjgyNzg4NTY0LDEzNj
-EwMjc5NjMsMTM2MTAyNzk2M119
+eyJoaXN0b3J5IjpbMTE4NjM5NjI5NCwxNzYwMDEwMzI4LDIxMz
+k4MDMwMjMsLTUyNjQyNjMzMSwxOTc3NTg0MDgsNDY1MDE5OTg0
+LDEyMzM1ODc2MDIsNzgxMjg5NTcyLDE2MjE3MTAyMDgsLTEyOD
+I3ODg1NjQsMTM2MTAyNzk2MywxMzYxMDI3OTYzXX0=
 -->
