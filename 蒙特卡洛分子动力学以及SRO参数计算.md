@@ -32,12 +32,12 @@ atomsk --create bcc 3.36 Nb Nb_seed.xsf
 ``` 
 ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-03/CXoCszlmptwuLmJz.png)
  ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-03/JV3TMRSabhOBWHt1.png)
- 115841
+ 共有115841原子
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAwMDc4ODksODU1ODg5Njg3LC00NDU1Mj
-MxMjUsLTIwMDQxNjk0MzQsLTE3Nzg2ODA3MDMsMjM0ODE2MjM0
-LDExODYzOTYyOTQsMTc2MDAxMDMyOCwyMTM5ODAzMDIzLC01Mj
-Y0MjYzMzEsMTk3NzU4NDA4LDQ2NTAxOTk4NCwxMjMzNTg3NjAy
-LDc4MTI4OTU3MiwxNjIxNzEwMjA4LC0xMjgyNzg4NTY0LDEzNj
-EwMjc5NjMsMTM2MTAyNzk2M119
+eyJoaXN0b3J5IjpbMjA4MzY5OTM2OCw4NTU4ODk2ODcsLTQ0NT
+UyMzEyNSwtMjAwNDE2OTQzNCwtMTc3ODY4MDcwMywyMzQ4MTYy
+MzQsMTE4NjM5NjI5NCwxNzYwMDEwMzI4LDIxMzk4MDMwMjMsLT
+UyNjQyNjMzMSwxOTc3NTg0MDgsNDY1MDE5OTg0LDEyMzM1ODc2
+MDIsNzgxMjg5NTcyLDE2MjE3MTAyMDgsLTEyODI3ODg1NjQsMT
+M2MTAyNzk2MywxMzYxMDI3OTYzXX0=
 -->
