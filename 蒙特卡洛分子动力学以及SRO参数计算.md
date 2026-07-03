@@ -26,12 +26,13 @@ atomsk --create bcc 3.36 Nb Nb_seed.xsf
 ```
  atomsk --polycrystal Nb_seed.xsf polycrystal.txt Nb_polycrystal.cfg -wrap
  ```
+ 用
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUwOTIwODMsLTE3Nzg2ODA3MDMsMj
-M0ODE2MjM0LDExODYzOTYyOTQsMTc2MDAxMDMyOCwyMTM5ODAz
-MDIzLC01MjY0MjYzMzEsMTk3NzU4NDA4LDQ2NTAxOTk4NCwxMj
-MzNTg3NjAyLDc4MTI4OTU3MiwxNjIxNzEwMjA4LC0xMjgyNzg4
-NTY0LDEzNjEwMjc5NjMsMTM2MTAyNzk2M119
+eyJoaXN0b3J5IjpbNjQ5MzQzNjY3LC0xNzc4NjgwNzAzLDIzND
+gxNjIzNCwxMTg2Mzk2Mjk0LDE3NjAwMTAzMjgsMjEzOTgwMzAy
+MywtNTI2NDI2MzMxLDE5Nzc1ODQwOCw0NjUwMTk5ODQsMTIzMz
+U4NzYwMiw3ODEyODk1NzIsMTYyMTcxMDIwOCwtMTI4Mjc4ODU2
+NCwxMzYxMDI3OTYzLDEzNjEwMjc5NjNdfQ==
 -->
