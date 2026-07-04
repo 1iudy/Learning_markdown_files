@@ -104,9 +104,11 @@ jump in_MC_MD.lmp period_start
   
 write_data MC_MD_Nb25Ta25Hf5Zr45.lmp
 ```
-但fix sgcmc方法在不使用EAM势并添加atomic/energy yes的关键词下只能串行运行，只使用单核ji
+但fix sgcmc方法在不使用EAM势并添加atomic/energy yes的关键词下只能串行运行，只使用单核计算，速度较慢。
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzM1MDE4MzUsMTg4MjM0NjcyNCwxOT
+eyJoaXN0b3J5IjpbLTIwNzIxMzI3MjYsMTg4MjM0NjcyNCwxOT
 MwODM5Njc5LDEwNzYzMTcxNTQsLTk2ODE2MDc5Niw4NTU4ODk2
 ODcsLTQ0NTUyMzEyNSwtMjAwNDE2OTQzNCwtMTc3ODY4MDcwMy
 wyMzQ4MTYyMzQsMTE4NjM5NjI5NCwxNzYwMDEwMzI4LDIxMzk4
