@@ -33,7 +33,8 @@ set type 1 type/ratio 5 0.5 66531
 write_data CoCrFeMnNi_111.lmp
 ```
 生成的结构共504455，lx = ly = lz = 18nm，符合原文献
+MC
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTMyMjczMTUsLTEwODIwNjkyNDMsMj
-ExNTAzMjMyMywtOTUwOTQ4NDIwXX0=
+eyJoaXN0b3J5IjpbMjEwNzAzMDEzLC0xMDgyMDY5MjQzLDIxMT
+UwMzIzMjMsLTk1MDk0ODQyMF19
 -->
