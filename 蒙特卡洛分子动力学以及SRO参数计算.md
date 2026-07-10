@@ -104,15 +104,15 @@ jump in_MC_MD.lmp period_start
   
 write_data MC_MD_Nb25Ta25Hf5Zr45.lmp
 ```
-~~但fix sgcmc方法在不使用EAM势并添加atomic/energy yes的关键词下只能串行运行，只使用单核计算，速度较慢。~~（搞错了，原文中的Metropolis接受准则）
+~~但fix sgcmc方法在不使用EAM势并添加atomic/energy yes的关键词下只能串行运行，只使用单核计算，速度较慢。~~（搞错了，原文中的Metropolis接受准则是通过fix atom/swap命令实现的）
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODg5MjUwMTIsLTIwNzIxMzI3MjYsMT
-g4MjM0NjcyNCwxOTMwODM5Njc5LDEwNzYzMTcxNTQsLTk2ODE2
-MDc5Niw4NTU4ODk2ODcsLTQ0NTUyMzEyNSwtMjAwNDE2OTQzNC
-wtMTc3ODY4MDcwMywyMzQ4MTYyMzQsMTE4NjM5NjI5NCwxNzYw
-MDEwMzI4LDIxMzk4MDMwMjMsLTUyNjQyNjMzMSwxOTc3NTg0MD
-gsNDY1MDE5OTg0LDEyMzM1ODc2MDIsNzgxMjg5NTcyLDE2MjE3
-MTAyMDhdfQ==
+eyJoaXN0b3J5IjpbMTAwNjY1NTU2NywtMjA3MjEzMjcyNiwxOD
+gyMzQ2NzI0LDE5MzA4Mzk2NzksMTA3NjMxNzE1NCwtOTY4MTYw
+Nzk2LDg1NTg4OTY4NywtNDQ1NTIzMTI1LC0yMDA0MTY5NDM0LC
+0xNzc4NjgwNzAzLDIzNDgxNjIzNCwxMTg2Mzk2Mjk0LDE3NjAw
+MTAzMjgsMjEzOTgwMzAyMywtNTI2NDI2MzMxLDE5Nzc1ODQwOC
+w0NjUwMTk5ODQsMTIzMzU4NzYwMiw3ODEyODk1NzIsMTYyMTcx
+MDIwOF19
 -->
