@@ -145,24 +145,24 @@ mdapy对于wcp计算结果以矩阵形式给出，比较方便在文献中展示
 Nb25Ta25Hf5Zr45计算结果如下：![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-13/q5ljNoYL4BDACvzZ.png)
 
 ### 3.2 Warren Cowley Parameter程序包实现
-[Warren Cowley Parameter](https://github.com/killiansheriff/WarrenCowleyParameters)软件包可以作为ovito的modifier，也可以通过python接口进行实现。通过python接口自动计算，
+[Warren Cowley Parameter](https://github.com/killiansheriff/WarrenCowleyParameters)软件包可以作为ovito的modifier，也可以通过python接口进行实现。通过python接口自动计算，jieguo1
 
 | \ | Zr |	Nb |	Ta | Hf |	
 |--|--|--|--|--|
 | **Zr** | -0.36 |	0.32 |	0.41 | -0.26 |
-| **Nb** |0.32|0.46| -1.06 ||
-| **Ta** | 0.39 |	-1.06 |	0.23 |  |
-| **Hf** | -0.27 |0.07|0.48||
+| **Nb** |0.32|0.46| -1.06 |0.05|
+| **Ta** | 0.39 |	-1.06 |	0.23 |0.45  |
+| **Hf** | -0.27 |0.07|0.48|-0.15 |
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjIwODAsMTg0MjA3MDgzNCwtMjEyOD
-I5NDM3MiwxNDcyMzc3MTQ2LC03MTkyNjQ2MjAsLTEwMDE5MzI5
-MDUsLTY1OTQ2NDc4NSwtNjUxNjQ3NDQ3LC0yMDgwMzk1NTY2LD
-E0MDU2MDYxODksMTYzNjk0NzAxNiwtMTMxNDUwMDk0OSwxMDA2
-NjU1NTY3LC0yMDcyMTMyNzI2LDE4ODIzNDY3MjQsMTkzMDgzOT
-Y3OSwxMDc2MzE3MTU0LC05NjgxNjA3OTYsODU1ODg5Njg3LC00
-NDU1MjMxMjVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDQ4NzM5NywxODQyMDcwODM0LC0yMT
+I4Mjk0MzcyLDE0NzIzNzcxNDYsLTcxOTI2NDYyMCwtMTAwMTkz
+MjkwNSwtNjU5NDY0Nzg1LC02NTE2NDc0NDcsLTIwODAzOTU1Nj
+YsMTQwNTYwNjE4OSwxNjM2OTQ3MDE2LC0xMzE0NTAwOTQ5LDEw
+MDY2NTU1NjcsLTIwNzIxMzI3MjYsMTg4MjM0NjcyNCwxOTMwOD
+M5Njc5LDEwNzYzMTcxNTQsLTk2ODE2MDc5Niw4NTU4ODk2ODcs
+LTQ0NTUyMzEyNV19
 -->
