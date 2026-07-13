@@ -144,12 +144,13 @@ mdapy是用于分析分子动力学（MD）模拟生成的原子轨迹的python�
 mdapy对于wcp计算结果以矩阵形式给出，比较方便在文献中展示，但是数值范围一般只能在-2~1之间，进行精细调控展示稍微麻烦。
 Nb25Ta25Hf5Zr45计算结果如下：![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-13/q5ljNoYL4BDACvzZ.png)
 
-### 3.2 Warre
+### 3.2 Warren Cowley Parameter程序包实现
+[Warren Cowley Parameter](https://pypi.org/project/WarrenCowleyParameters/)软件包
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDQ4MzQxOSwxODQyMDcwODM0LC0yMT
+eyJoaXN0b3J5IjpbMTM0NDM0ODgwOSwxODQyMDcwODM0LC0yMT
 I4Mjk0MzcyLDE0NzIzNzcxNDYsLTcxOTI2NDYyMCwtMTAwMTkz
 MjkwNSwtNjU5NDY0Nzg1LC02NTE2NDc0NDcsLTIwODAzOTU1Nj
 YsMTQwNTYwNjE4OSwxNjM2OTQ3MDE2LC0xMzE0NTAwOTQ5LDEw
