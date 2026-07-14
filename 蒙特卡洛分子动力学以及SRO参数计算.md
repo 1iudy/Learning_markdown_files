@@ -155,7 +155,7 @@ Nb25Ta25Hf5Zr45计算结果如下：![输入图片说明](https://raw.githubuser
 | **Ta** | 0.39 |	-1.06 |	0.23 |0.45  |
 | **Hf** | -0.27 |0.07|0.48|-0.15 |
 
-**2NNWC参数：**
+**2NN WC参数：**
 | \ | Zr |	Nb |	Ta | Hf |	
 |--|--|--|--|--|
 | **Zr** | -0.25 |	0.08 |	0.39 | -0.20 |
@@ -166,7 +166,7 @@ Nb25Ta25Hf5Zr45计算结果如下：![输入图片说明](https://raw.githubuser
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDg3MTQ4OSw2NzE0MTcyNjEsLTEzNz
+eyJoaXN0b3J5IjpbLTkwNTIxNzM0NSw2NzE0MTcyNjEsLTEzNz
 k3NDg4OTAsMjExOTM1MTk0MywxODQyMDcwODM0LC0yMTI4Mjk0
 MzcyLDE0NzIzNzcxNDYsLTcxOTI2NDYyMCwtMTAwMTkzMjkwNS
 wtNjU5NDY0Nzg1LC02NTE2NDc0NDcsLTIwODAzOTU1NjYsMTQw
