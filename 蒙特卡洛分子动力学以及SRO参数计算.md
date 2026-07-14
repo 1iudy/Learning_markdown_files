@@ -174,14 +174,14 @@ $$\alpha_{AB} = 1 - \frac{\displaystyle \int_0^{r_{\text{cut}}} \rho \cdot g_{AB
 ### 小结
 三种方式计算出来的WC参数虽然数值存在差异，但是元素间的偏聚/有序分布趋势的描述还是比较一致的，**但是最大的问题在于当前复现的warren cowley parameter跟原文献不符**
 ![原文献中WC参数的计算结果](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11661-025-08003-z/MediaObjects/11661_2025_8003_Fig6_HTML.png)
-（原文结果只标明了等原子比和Hf45Zr5，其余两种mei'you'biao'm）
+（原文结果只标明了等原子比和Hf45Zr5，其余两种没有标明）不清楚是MC随机性的问题还是其他什么问题
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzMjM5OTk3LC0xMTYzMzMwMDc5LC05Mz
-Q2ODc1MDgsLTExMDQ0NDcxOTIsMTkzNzExMjEzNywtMjk2ODg5
-MDQzLC05MDUyMTczNDUsNjcxNDE3MjYxLC0xMzc5NzQ4ODkwLD
-IxMTkzNTE5NDMsMTg0MjA3MDgzNCwtMjEyODI5NDM3MiwxNDcy
-Mzc3MTQ2LC03MTkyNjQ2MjAsLTEwMDE5MzI5MDUsLTY1OTQ2ND
-c4NSwtNjUxNjQ3NDQ3LC0yMDgwMzk1NTY2LDE0MDU2MDYxODks
-MTYzNjk0NzAxNl19
+eyJoaXN0b3J5IjpbLTExMzEzMDYxNTUsLTExNjMzMzAwNzksLT
+kzNDY4NzUwOCwtMTEwNDQ0NzE5MiwxOTM3MTEyMTM3LC0yOTY4
+ODkwNDMsLTkwNTIxNzM0NSw2NzE0MTcyNjEsLTEzNzk3NDg4OT
+AsMjExOTM1MTk0MywxODQyMDcwODM0LC0yMTI4Mjk0MzcyLDE0
+NzIzNzcxNDYsLTcxOTI2NDYyMCwtMTAwMTkzMjkwNSwtNjU5ND
+Y0Nzg1LC02NTE2NDc0NDcsLTIwODAzOTU1NjYsMTQwNTYwNjE4
+OSwxNjM2OTQ3MDE2XX0=
 -->
