@@ -163,16 +163,16 @@ Nb25Ta25Hf5Zr45计算结果如下：![输入图片说明](https://raw.githubuser
 | **Ta** | 0.41 |	0.49 |-1.19 |0.03  |
 | **Hf** | -0.27 |0.39|0.00|-0.38 |
 ### 3.3 通过径向分布函数（RDF）实现
-参考了[Effects of Chemical Short-Range Order and Temperature on Basic Structure Parameters and Stacking Fault Energies in Multi-Principal Element Alloys](https://www.mdpi.com/2673-3951/5/1/19)中的实现方式，先通过compute rdf命令计算各个原子对的径向分布函数，然后根据WC参数计算变式
+参考了[Effects of Chemical Short-Range Order and Temperature on Basic Structure Parameters and Stacking Fault Energies in Multi-Principal Element Alloys](https://www.mdpi.com/2673-3951/5/1/19)中的实现方式，先通过compute rdf命令计算各个原子对的径向分布函数，然后根据积分求配位数
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1NjEzMzI0LDE5MzcxMTIxMzcsLTI5Nj
-g4OTA0MywtOTA1MjE3MzQ1LDY3MTQxNzI2MSwtMTM3OTc0ODg5
-MCwyMTE5MzUxOTQzLDE4NDIwNzA4MzQsLTIxMjgyOTQzNzIsMT
-Q3MjM3NzE0NiwtNzE5MjY0NjIwLC0xMDAxOTMyOTA1LC02NTk0
-NjQ3ODUsLTY1MTY0NzQ0NywtMjA4MDM5NTU2NiwxNDA1NjA2MT
-g5LDE2MzY5NDcwMTYsLTEzMTQ1MDA5NDksMTAwNjY1NTU2Nywt
-MjA3MjEzMjcyNl19
+eyJoaXN0b3J5IjpbLTEwNzE3Mjg4MTgsMTkzNzExMjEzNywtMj
+k2ODg5MDQzLC05MDUyMTczNDUsNjcxNDE3MjYxLC0xMzc5NzQ4
+ODkwLDIxMTkzNTE5NDMsMTg0MjA3MDgzNCwtMjEyODI5NDM3Mi
+wxNDcyMzc3MTQ2LC03MTkyNjQ2MjAsLTEwMDE5MzI5MDUsLTY1
+OTQ2NDc4NSwtNjUxNjQ3NDQ3LC0yMDgwMzk1NTY2LDE0MDU2MD
+YxODksMTYzNjk0NzAxNiwtMTMxNDUwMDk0OSwxMDA2NjU1NTY3
+LC0yMDcyMTMyNzI2XX0=
 -->
