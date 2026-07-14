@@ -162,12 +162,13 @@ Nb25Ta25Hf5Zr45计算结果如下：![输入图片说明](https://raw.githubuser
 | **Nb** |0.07|-0.70| 0.49 |0.42|
 | **Ta** | 0.41 |	0.49 |-1.19 |0.03  |
 | **Hf** | -0.27 |0.39|0.00|-0.38 |
-### 3.3 计算
+### 3.3 通过径向分布函数（RDF）实现
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTY3NDUxNCwtMjk2ODg5MDQzLC05MD
+eyJoaXN0b3J5IjpbMTkzNzExMjEzNywtMjk2ODg5MDQzLC05MD
 UyMTczNDUsNjcxNDE3MjYxLC0xMzc5NzQ4ODkwLDIxMTkzNTE5
 NDMsMTg0MjA3MDgzNCwtMjEyODI5NDM3MiwxNDcyMzc3MTQ2LC
 03MTkyNjQ2MjAsLTEwMDE5MzI5MDUsLTY1OTQ2NDc4NSwtNjUx
