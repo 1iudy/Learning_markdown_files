@@ -33,10 +33,9 @@ set type 1 type/ratio 5 0.5 66531
   
 write_data CoCrFeMnNi_111.lmp
 ```
-生成的结构共504455原子，lx = ly = lz = 18nm，符合原文献
-体系过大MC/MD模拟较为缓慢预计需要18天。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4Nzk2MjIzNywtOTk2OTAzNDg4LDEzOT
-M4MDcxNjYsLTEwODIwNjkyNDMsMjExNTAzMjMyMywtOTUwOTQ4
-NDIwXX0=
+eyJoaXN0b3J5IjpbLTE5MzQxMjAyNjIsLTY4Nzk2MjIzNywtOT
+k2OTAzNDg4LDEzOTM4MDcxNjYsLTEwODIwNjkyNDMsMjExNTAz
+MjMyMywtOTUwOTQ4NDIwXX0=
 -->
