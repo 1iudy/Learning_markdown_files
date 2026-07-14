@@ -172,11 +172,12 @@ $$\alpha_{AB} = 1 - \frac{\displaystyle \int_0^{r_{\text{cut}}} \rho \cdot g_{AB
 ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-14/2EJZxr7pz8vqXKis.png)
 
 ### 小结
-三种方式计算出来的WC参数虽然数值存在差异，但是元素间的偏聚/有序分布趋势的描述还是比较一致的，但是最大的问题在于当前复现的warren cowley parameter跟原文献bu'fu
+三种方式计算出来的WC参数虽然数值存在差异，但是元素间的偏聚/有序分布趋势的描述还是比较一致的，**但是最大的问题在于当前复现的warren cowley parameter跟原文献不符**
+![原文献中WC参数的计算结果](https://media.springernature.com/full/springer-static/image/art%3A10.1007%2Fs11661-025-08003-z/MediaObjects/11661_2025_8003_Fig6_HTML.png)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODY4NTY3MDEsLTkzNDY4NzUwOCwtMT
+eyJoaXN0b3J5IjpbLTExNjMzMzAwNzksLTkzNDY4NzUwOCwtMT
 EwNDQ0NzE5MiwxOTM3MTEyMTM3LC0yOTY4ODkwNDMsLTkwNTIx
 NzM0NSw2NzE0MTcyNjEsLTEzNzk3NDg4OTAsMjExOTM1MTk0My
 wxODQyMDcwODM0LC0yMTI4Mjk0MzcyLDE0NzIzNzcxNDYsLTcx
