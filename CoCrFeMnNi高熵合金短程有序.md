@@ -33,9 +33,9 @@ set type 1 type/ratio 5 0.5 66531
   
 write_data CoCrFeMnNi_111.lmp
 ```
-
+目前使用修改过的lammps代码实现了fix atom/swap交换两种以上的元素类型，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQxMjAyNjIsLTY4Nzk2MjIzNywtOT
-k2OTAzNDg4LDEzOTM4MDcxNjYsLTEwODIwNjkyNDMsMjExNTAz
-MjMyMywtOTUwOTQ4NDIwXX0=
+eyJoaXN0b3J5IjpbLTIxODkzMjY3NywtMTkzNDEyMDI2MiwtNj
+g3OTYyMjM3LC05OTY5MDM0ODgsMTM5MzgwNzE2NiwtMTA4MjA2
+OTI0MywyMTE1MDMyMzIzLC05NTA5NDg0MjBdfQ==
 -->
