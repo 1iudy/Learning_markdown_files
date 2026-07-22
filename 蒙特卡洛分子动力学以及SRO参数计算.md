@@ -177,9 +177,9 @@ $$\alpha_{AB} = 1 - \frac{\displaystyle \int_0^{r_{\text{cut}}} \rho \cdot g_{AB
 （原文结果只标明了等原子比和Hf45Zr5，其余两种没有标明）
 
 
-另外，混合蒙特卡洛分子动力学后的结构
+另外，混合蒙特卡洛分子动力学后的多晶结构
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Mjk0MzIyNSwtMTA5NTk3MDIyMCwtMT
+eyJoaXN0b3J5IjpbMTAwOTc1MjQyNywtMTA5NTk3MDIyMCwtMT
 EzMTMwNjE1NSwtMTE2MzMzMDA3OSwtOTM0Njg3NTA4LC0xMTA0
 NDQ3MTkyLDE5MzcxMTIxMzcsLTI5Njg4OTA0MywtOTA1MjE3Mz
 Q1LDY3MTQxNzI2MSwtMTM3OTc0ODg5MCwyMTE5MzUxOTQzLDE4
