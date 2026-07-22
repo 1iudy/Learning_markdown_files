@@ -178,10 +178,14 @@ $$\alpha_{AB} = 1 - \frac{\displaystyle \int_0^{r_{\text{cut}}} \rho \cdot g_{AB
 
 
 另外，混合蒙特卡洛分子动力学前后的多晶结构对比如下：
-befo
+MC/MD前：
 ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-22/oDzB6mDZJMprRQ3R.png)
+MC/MD后：
+![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-22/uVj1b5x9VtfKmvKB.png)
+晶界范围变大的现象zai
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MjcxMzE1MywtMTk3MDI1MDE4NiwxMj
+eyJoaXN0b3J5IjpbMTg2OTM2ODY2MCwtMTk3MDI1MDE4NiwxMj
 Y5NTEzMDk2LC0xMDk1OTcwMjIwLC0xMTMxMzA2MTU1LC0xMTYz
 MzMwMDc5LC05MzQ2ODc1MDgsLTExMDQ0NDcxOTIsMTkzNzExMj
 EzNywtMjk2ODg5MDQzLC05MDUyMTczNDUsNjcxNDE3MjYxLC0x
