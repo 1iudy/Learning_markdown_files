@@ -183,7 +183,9 @@ $$\alpha_{AB} = 1 - \frac{\displaystyle \int_0^{r_{\text{cut}}} \rho \cdot g_{AB
 |Zr-Nb|0.46|0.27|
 |Zr-Ta|0.44|0.23|
 Zr-Hf|-0.30|-0.21|
-Nb-Nb|-0.30|-0.36
+Nb-Nb|-0.30|-0.36|
+Nb-Ta|0.06|0.04
+Nb-Hf|0.09|
 
 
 
@@ -195,7 +197,7 @@ MC/MD后：
 晶界范围变大的现象在NPT弛豫过程后就已经发生，猜测是NbTaHfZr在1000K下的正常变化？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4ODY4NTg1LDIwMDk5NTI3NDIsMTQwMT
+eyJoaXN0b3J5IjpbNjU3ODk0MzE5LDIwMDk5NTI3NDIsMTQwMT
 I2NDc1MCwtMTQ3OTIyODgzMiwxMzg0MDQzNzAxLC0xOTcwMjUw
 MTg2LDEyNjk1MTMwOTYsLTEwOTU5NzAyMjAsLTExMzEzMDYxNT
 UsLTExNjMzMzAwNzksLTkzNDY4NzUwOCwtMTEwNDQ0NzE5Miwx
