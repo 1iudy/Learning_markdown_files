@@ -177,6 +177,7 @@ $$\alpha_{AB} = 1 - \frac{\displaystyle \int_0^{r_{\text{cut}}} \rho \cdot g_{AB
 （原文结果只标明了等原子比和Hf45Zr5，其余两种没有标明）
 
 
+
 另外，混合蒙特卡洛分子动力学前后的多晶结构对比如下：
 MC/MD前：
 ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-22/oDzB6mDZJMprRQ3R.png)
@@ -185,11 +186,11 @@ MC/MD后：
 晶界范围变大的现象在NPT弛豫过程后就已经发生，猜测是NbTaHfZr在1000K下的正常变化？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyMTk3ODA0NiwtMTk3MDI1MDE4NiwxMj
-Y5NTEzMDk2LC0xMDk1OTcwMjIwLC0xMTMxMzA2MTU1LC0xMTYz
-MzMwMDc5LC05MzQ2ODc1MDgsLTExMDQ0NDcxOTIsMTkzNzExMj
-EzNywtMjk2ODg5MDQzLC05MDUyMTczNDUsNjcxNDE3MjYxLC0x
-Mzc5NzQ4ODkwLDIxMTkzNTE5NDMsMTg0MjA3MDgzNCwtMjEyOD
-I5NDM3MiwxNDcyMzc3MTQ2LC03MTkyNjQ2MjAsLTEwMDE5MzI5
-MDUsLTY1OTQ2NDc4NV19
+eyJoaXN0b3J5IjpbLTE2MjM3NTk4OTIsLTE5NzAyNTAxODYsMT
+I2OTUxMzA5NiwtMTA5NTk3MDIyMCwtMTEzMTMwNjE1NSwtMTE2
+MzMzMDA3OSwtOTM0Njg3NTA4LC0xMTA0NDQ3MTkyLDE5MzcxMT
+IxMzcsLTI5Njg4OTA0MywtOTA1MjE3MzQ1LDY3MTQxNzI2MSwt
+MTM3OTc0ODg5MCwyMTE5MzUxOTQzLDE4NDIwNzA4MzQsLTIxMj
+gyOTQzNzIsMTQ3MjM3NzE0NiwtNzE5MjY0NjIwLC0xMDAxOTMy
+OTA1LC02NTk0NjQ3ODVdfQ==
 -->
