@@ -38,9 +38,14 @@ write_data CoCrFeMnNi_111.lmp
 
 **7.24**
 目前已经完成了**1264 / 2000**次MC周期，晶体结构如下
+|  |  |
+|--|--|
+| ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-24/MNWc7hrJENKjKtrV.png) | ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-24/1iADd6Cb5082MQZl.png) |
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk0NTc2MDcxLDEzMTAxNTcwNzcsLTE4NT
-gzMzk5MTcsLTE5MzQxMjAyNjIsLTY4Nzk2MjIzNywtOTk2OTAz
-NDg4LDEzOTM4MDcxNjYsLTEwODIwNjkyNDMsMjExNTAzMjMyMy
-wtOTUwOTQ4NDIwXX0=
+eyJoaXN0b3J5IjpbLTY4Nzg0NTk0MSwxMzEwMTU3MDc3LC0xOD
+U4MzM5OTE3LC0xOTM0MTIwMjYyLC02ODc5NjIyMzcsLTk5Njkw
+MzQ4OCwxMzkzODA3MTY2LC0xMDgyMDY5MjQzLDIxMTUwMzIzMj
+MsLTk1MDk0ODQyMF19
 -->
