@@ -53,9 +53,10 @@ WC参数对比
 **Mn**|0.00|-0.15|0.20|0.22|-0.27
 **Ni**|0.19|0.01|0.01|-0.27|0.06
 
-yuan'wen'xi
+原文献结果：
+![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-24/mUrIsqJz7qtVeYki.png)![图1](https://ars.els-cdn.com/content/image/1-s2.0-S1359645426006142-gr1.jpg)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgwODAxMDQ1LDQwOTI1NTI2OCwtNjE4ND
+eyJoaXN0b3J5IjpbNzA3NzQzOTc2LDQwOTI1NTI2OCwtNjE4ND
 AwNTQ4LDEzMTAxNTcwNzcsLTE4NTgzMzk5MTcsLTE5MzQxMjAy
 NjIsLTY4Nzk2MjIzNywtOTk2OTAzNDg4LDEzOTM4MDcxNjYsLT
 EwODIwNjkyNDMsMjExNTAzMjMyMywtOTUwOTQ4NDIwXX0=
