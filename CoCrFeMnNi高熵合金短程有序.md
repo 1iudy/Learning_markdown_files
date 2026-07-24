@@ -45,19 +45,17 @@ write_data CoCrFeMnNi_111.lmp
 绘制平均原子势能随MC周期变化
 ![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-24/3ed8nv7oeO0Jp5OG.png)
 WC参数对比
-  |
-|--|--|
-|  |  |
-
 | \  |Co|Cr|Fe|Mn|Ni
 |--|--|--|--|--|--|
-Co|-0.18|0.41|-0.42|0.00|0.19
-Cr|0.41|-0.83|0.56|-0.15|0.01
-Fe|-0.42|0.56|-0.34|0.20|0.01
-Mn|0.00|-0.15|0.20|0.22|-0.27
-Ni,0.190174,0.008556,0.008074,-0.270299|0.06
+**Co**|-0.18|0.41|-0.42|0.00|0.19
+**Cr**|0.41|-0.83|0.56|-0.15|0.01
+**Fe**|-0.42|0.56|-0.34|0.20|0.01
+**Mn**|0.00|-0.15|0.20|0.22|-0.27
+**Ni**|0.19|0.01|0.01|-0.27|0.06
+
+yuan'wen'xi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4ODMyMjcwLDQwOTI1NTI2OCwtNjE4ND
+eyJoaXN0b3J5IjpbMjgwODAxMDQ1LDQwOTI1NTI2OCwtNjE4ND
 AwNTQ4LDEzMTAxNTcwNzcsLTE4NTgzMzk5MTcsLTE5MzQxMjAy
 NjIsLTY4Nzk2MjIzNywtOTk2OTAzNDg4LDEzOTM4MDcxNjYsLT
 EwODIwNjkyNDMsMjExNTAzMjMyMywtOTUwOTQ4NDIwXX0=
