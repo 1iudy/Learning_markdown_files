@@ -1,0 +1,47 @@
+# vasp实现AIMD相关（ab initial MD & MLFF）
+
+内容主要参考vasp wiki有关分子动力学计算的相关内容：[分子动力学计算](https://vasp.at/wiki/Molecular-dynamics_calculations)
+## **AIMD的基本原理**
+VASP 实现 AIMD 的核心思路是：**在每个分子动力学时间步中，通过自洽求解 Kohn-Sham 方程获得电子基态，再由 Hellmann-Feynman 力驱动离子运动**。适用于静态基态计算不足以描述的情形——**热无序、扩散、结构涨落、相稳定性、熔化、以及体系在真实条件下如何弛豫平衡**。具体流程主要是：
+-  给定离子位置 $\{\mathbf{R}_I\}$，求解 Kohn-Sham 方程得到电子基态密度 $\rho(\mathbf{r})$。
+-   通过 Hellmann-Feynman 定理（加上 Pulay 力修正，因为 VASP 使用平面波+PAW 基组）计算每个离子上的力 $\mathbf{F}_I = -\nabla_{\mathbf{R}_I} E_{\text{KS}}$。
+-   用牛顿运动方程（通常 Verlet 算法）更新离子位置和速度。
+-   重复以上步骤，得到离子轨迹。 
+
+计算分子动力学轨迹的过程中，除了直接通过DFT对原子间力进行计算，还可以通过**机器学习力场(MLFF)** 实现，通过对已计算的结构**插值**的方法进行训练，vasp使用MLFF可以进行即时训练，也可以采用外部的机器学习力场，可以通过**ML_MODE参数**进行选择。
+即时机器学习力场生成方案如图所示
+![输入图片说明](https://raw.githubusercontent.com/1iudy/Learning_markdown_files/images/imgs/2026-07-28/36eRy9Nt8SPrHbDZ.png)
+## 机器学习力场MLFF的基本原理
+MLFF的数据集包含布拉维晶格、原子坐标、DFT计算的总能量、力和应力张量，通过包含径向和角向分布信息的描述符识别每个原子周围的**局域构型**，从而使用模型学习对应的局域构型附近的力场。
+### 训练结构判据
+	
+在输入文件中提前定义**力不确定性阈值**，当结构的力的不确定性超过该阈值时，则将该结构归入**训练集**，计算并提取其DFT信息。初始阈值由**ML_CTIFOR**（单位 eV/Å）给出，其后续如何自适应由**ML_ICRITERIA** 控制：`0` 不更新；`1` 用历史贝叶斯不确定性的均值更新；`2` 用滑动均值。推荐自动更新：**ML_ICRITERIA = 1**，此时阈值根据前几步中的**平均贝叶斯不确定性**进行更新，具体更新公式如下：
+$$\texttt{ML\_CTIFOR} = \langle \text{stored Bayesian uncertainties} \rangle \times (1 + \texttt{ML\_CX})$$
+力场不会每次遇到上述新结构时都进行重新训练，当遇到与已有结构差异不是太大的结构时，通常会进行**攒批(blocking)** 操作，收集待学习的数据，并在后续步骤中同时对所有结构进行学习，可以通过标签**ML_MCONF_NEW**设置学习块大小。一般根据力的贝叶斯不确定性大小进行更新操作：
+-   **不确定性 > `ML_CDOUB` × `ML_CTIFOR`**：立刻采样该结构的局域参考构型，**当场做一次 DFT 并立即重建力场**。
+-   **`ML_CTIFOR` < 不确定性 ≤ `ML_CDOUB` × `ML_CTIFOR`**：也做 DFT，但结构先列为"候选"，**攒够 `ML_MCONF_NEW` 个候选后**才一起并入训练集、统一更新力场。为避免采到太相似的结构，相邻候选之间还隔 `ML_NMDINT` 步。
+-   **特例**：尚无任何力场时，第一个结构的所有原子都直接采样，建初始力场。
+### 局部能量
+VASP 的总能量可以写成居于原子能量之和：
+$$ U = \sum_{i=1}^{N_a} U_i, \qquad U_i = F[\rho_i(\mathbf{r})] $$
+局部能量$U_i$是局域原子密度的泛函，原子 $i$的能量只由它周围截断半径 $R_{\text{cut}}$ 内的邻域原子密度 $\rho_i(\mathbf{r})$ 决定。
+$$\rho_i(\mathbf{r}) = \sum_{j=1}^{N_a} f_{\text{cut}}(r_{ij})\, g(\mathbf{r}-\mathbf{r}_{ij}), \quad r_{ij}=|\mathbf{r}_j-\mathbf{r}_i|$$
+其中，$f_{\text{cut}}(r_{ij})$ 是截断函数，$r_{ij}>R_{\text{cut}}$ 时严格为 0，也就是仅考虑局域内原子的作用。$g(\mathbf{r})$是$\delta$ 函数，与SOAP相似，将$g(\mathbf{r})$经过高斯展宽后，得到：
+$$g(\mathbf{r}) = \frac{1}{\sigma_{\text{atom}}\sqrt{2\pi}} \exp\!\left(-\frac{|\mathbf{r}|^2}{2\sigma_{\text{atom}}^2}\right)$$
+### 描述符
+由于能量$U_i$具有旋转不变性，即数值不跟随空间旋转发生改变，但是$\rho_i(\mathbf{r})$不具有旋转不变性，因此不能将$\rho_i(\mathbf{r})$直接作为模型描述符使用，因此需要构建具有旋转不变性的描述符。主要构建了径向描述符和角向描述符
+**径向（两体）描述符**，对方向积分消去取向，仅保留距离r处有多少近邻原子，只含两体信息：
+$$\rho_i^{(2)}(r) = \frac{1}{4\pi}\int \rho_i(r\hat{\mathbf{r}})\, d\hat{\mathbf{r}} $$
+**角向（三体）描述符**，用 $\delta(\hat{\mathbf{r}}\cdot\hat{\mathbf{s}}-\cos\theta)$把两个方向的夹角锁成 $\theta$：
+
+$$ \rho_i^{(3)}(r,s,\theta) = \iint d\hat{\mathbf{r}}\, d\hat{\mathbf{s}}\; \delta(\hat{\mathbf{r}}\cdot\hat{\mathbf{s}}-\cos\theta)\sum_{j}\sum_{k\ne j}\rho_{ik}(r\hat{\mathbf{r}})\,\rho_{ij}(s\hat{\mathbf{s}}) $$
+### 基展开
+为减少计算消耗，将$\rho_i(\mathbf{r})$投到一组基上——径向基 $\chi_{nl}(r)$（归一化球贝塞尔函数）乘球谐 $Y_{lm}(\hat{\mathbf{r}})$:
+$$ \rho_i(\mathbf{r}) = \sum_{l=1}^{L_{\max}}\sum_{m=-l}^{l}\sum_{n=1}^{N_R^l} c_{nlm}^{i}\, \chi_{nl}(r)\, Y_{lm}(\hat{\mathbf{r}}) $$
+
+系数 $c_{nlm}^{i} = \langle \chi_{nl} Y_{lm} \mid \rho_i \rangle$就是 $\rho_i$ 在这组基上的"坐标"，由 $L_{\max}$（`ML_LMAX2`）和径向截断 $N_R^l$ 截断。同理每个两体分布也有系数 $\rho_{ij}(\mathbf{r}) = \sum c_{nlm}^{ij}\chi_{nl}Y_{lm}$，且有线性性 $c_{nlm}^{i} = \sum_j c_{nlm}^{ij}$。 将展开代入$\rho_i^{(2)}(r)$，可得：
+$$\rho_i^{(2)}(r) = \frac{1}{4\pi}\sum_{l,m,n} c_{nlm}^{i}\chi_{nl}(r)\int Y_{lm}\,d\hat{\mathbf{r}} = \frac{1}{\sqrt{4\pi}}\sum_n c_{n00}^{i}\chi_{n0}(r)$$
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTAwNjMwODI0Ml19
+-->
