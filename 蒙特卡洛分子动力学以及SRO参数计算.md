@@ -199,7 +199,8 @@ Hf-Hf|-0.11|-0.17
 采用以下方式进行优化：
 
  1. **使用Voronoi 多面体定义近邻壳层，代替原来的估计和rdf方法计算截断距离**
- 2. **只对晶界内部的BCC结构原子进行计算bing
+ 2. **只对晶界内部的BCC结构原子进行计算**
+ 3. **对于收敛后的结构进行多帧平均计算**
 
 另外，混合蒙特卡洛分子动力学前后的多晶结构对比如下：
 MC/MD前：
@@ -209,7 +210,7 @@ MC/MD后：
 晶界范围变大的现象在NPT弛豫过程后就已经发生，猜测是NbTaHfZr在1000K下的正常变化？
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA1Nzk0ODIsNzgxMjU3NDUxLDE0OT
+eyJoaXN0b3J5IjpbLTE1MjU0MzM2NTgsNzgxMjU3NDUxLDE0OT
 kzNDI0NDksMTIwMjg4NDUwMywyMDAyNzk3NDQzLDk4NTc0MzI3
 NSwtMTQxMjgwMzUyNCwxOTE5MTc3MTU1LC04MjY2MDc3MDIsLT
 I1NzQzNDMyMCwtMTYwODM1MTkyMCwtMTI1NTc3OTE1MiwxNDMy
