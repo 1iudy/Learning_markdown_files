@@ -80,10 +80,10 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 
 **NSW**
 
--  `NSW != 0` **设置MD运动的步数**。通常单点能计算中设置`NSW = 0`，但对于分子动力学必须设置最大离子步
+-  `NSW != 0` **设置MD运动的步数**。通常单点能计算中设置`NSW = 0`，但对于分子动力学必须设置最大离子步，对于每个离子步，最多可以执行 `NELM` 个电子步。如果在之前满足[EDIFF](https://vasp.at/wiki/EDIFF "EDIFF")设定的收敛标准，则数量会减少。力和应力根据[ISIF](https://vasp.at/wiki/ISIF "ISIF")对每个离子阶的设置计算。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjkyODI2NDEsNTgzNDY5MzMyLDIwND
-k3MDYyNCwtOTI4MDc5ODI1LDE5MjgxMDM3MjUsLTM4OTAyNjE5
-NCwtNDI3NTQ2MzAxLC0xNTAzNDIyMzc0LDI3ODY0OTA0MiwxMz
-MwMTQzODU0LC0yMzM3MjQ4MDIsMTAwNjMwODI0Ml19
+eyJoaXN0b3J5IjpbMTU5Mzg0Nzc3MSw1ODM0NjkzMzIsMjA0OT
+cwNjI0LC05MjgwNzk4MjUsMTkyODEwMzcyNSwtMzg5MDI2MTk0
+LC00Mjc1NDYzMDEsLTE1MDM0MjIzNzQsMjc4NjQ5MDQyLDEzMz
+AxNDM4NTQsLTIzMzcyNDgwMiwxMDA2MzA4MjQyXX0=
 -->
