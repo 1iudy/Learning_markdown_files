@@ -46,7 +46,9 @@ $$\rho_i^{(3)} = 2\pi \sum_l P_l(\cos\theta)\sum_{n,\nu}\chi_{nl}(r)\chi_{\nu l}
 在许多情况下乘以角度滤波函数 $\eta$ ([ML_IAFILT2](https://vasp.at/wiki/ML_IAFILT2 "ML IAFILT2")），可以显著减少必要的基集大小，同时不损失计算准确性$\eta_{l,a}=1/(1+a[l(l+1)]^2)$（`ML_AFILT2`/`ML_IAFILT2`）
 把对元素种类的二次求和改成"一种元素对全部元素求和"，使描述符数对元素数从二次降到近似线性：
 $$ p_{n\nu l}^{iJ} = \sqrt{\frac{8\pi^2}{2l+1}}\sum_m c_{nlm}^{iJ}\sum_{J'} c_{\nu lm}^{iJ'} $$
+### 核回归
+对于需要学习的构型数据集(\rho_{i_B},\, U_{i_B}^{\text{ref}})$，
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM1Mjg1NDA3LC0yMzM3MjQ4MDIsMTAwNj
-MwODI0Ml19
+eyJoaXN0b3J5IjpbLTM1MDIwMzUwOCwtMjMzNzI0ODAyLDEwMD
+YzMDgyNDJdfQ==
 -->
