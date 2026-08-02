@@ -80,9 +80,10 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 
 **NSW**
 
+-  `NSW != 0` **设置MD运动的步数**。通常单点能计算中设置''
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDk5NzMzNiw1ODM0NjkzMzIsMjA0OT
-cwNjI0LC05MjgwNzk4MjUsMTkyODEwMzcyNSwtMzg5MDI2MTk0
-LC00Mjc1NDYzMDEsLTE1MDM0MjIzNzQsMjc4NjQ5MDQyLDEzMz
-AxNDM4NTQsLTIzMzcyNDgwMiwxMDA2MzA4MjQyXX0=
+eyJoaXN0b3J5IjpbNjQ1NjYxNjU5LDU4MzQ2OTMzMiwyMDQ5Nz
+A2MjQsLTkyODA3OTgyNSwxOTI4MTAzNzI1LC0zODkwMjYxOTQs
+LTQyNzU0NjMwMSwtMTUwMzQyMjM3NCwyNzg2NDkwNDIsMTMzMD
+E0Mzg1NCwtMjMzNzI0ODAyLDEwMDYzMDgyNDJdfQ==
 -->
