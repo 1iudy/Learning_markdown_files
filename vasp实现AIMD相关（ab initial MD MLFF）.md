@@ -136,9 +136,10 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 - **Ab initio MD**：所有力都从每一步的DFT计算出来。默认配置，不需要进行参数设置。
 - **原生 on-the-fly VASP MLFF**：开启即时学习MLFF，
 设置：`ML_LMFF =  0` `ML_MODE = train`
-- **原生VASP MLFF，仅预测**：训练并重新调整力场后，仅用MLFF预测进行MD。该模式不生成新的从头数据，因此应仅在力场适用性确认后使用。设置：`ML_MODE`
+- **原生VASP MLFF，仅预测**：训练并重新调整力场后，仅用MLFF预测进行MD。该模式不生成新的从头数据，因此应仅在力场适用性确认后使用。设置：`ML_MODE = run`
+- **外部预训练力场，以GRACE为例
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI3NzE3MjksODMzNjU4Mzg1LC0xNT
+eyJoaXN0b3J5IjpbLTIwNTQ3NTgxNjcsODMzNjU4Mzg1LC0xNT
 QwNTAwNjQ0LC0zMzk2NzA0MjAsLTg0MTY4NDA1NiwtMTM4NDcy
 NDAyMiwtMTYxNjg3MTM1MCwtMTU2ODk5MTE4LDU0NzA2NDQ3My
 wxNzI2MjcxNjYyLDU4MzQ2OTMzMiwyMDQ5NzA2MjQsLTkyODA3
