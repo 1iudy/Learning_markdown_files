@@ -93,11 +93,12 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 用于指定计算过程中的恒温器选择
 - `MDALGO = 0 (Default)`
 - `MDALGO = 1` **Andersen 恒温器**  可用于NVT系综和NVE系综。当用于NVE系综时，需要为[ANDERSEN_PROB](https://vasp.at/wiki/ANDERSEN_PROB "ANDERSEN PROB")设定合适的值。通常在加热到某个目标温度后进行。
-- `MDALGO = 2` **Nosé-Hoover 恒温器** 仅适用于NVT系综，并且需要为SMASS设置合适的值（Nosé-Hoover 恒温器需要SMASS大于0，对于jin'shu）
+- `MDALGO = 2` **Nosé-Hoover 恒温器** 仅适用于NVT系综，并且需要为SMASS设置合适的值（Nosé-Hoover 恒温器需要SMASS大于0，对于金属体系常取0.5~2.0）
+- `MDALGO = 3` **Langevin恒温器** 适用于NV
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE1NzQ0MTg5LC0xNTY4OTkxMTgsNTQ3MD
-Y0NDczLDE3MjYyNzE2NjIsNTgzNDY5MzMyLDIwNDk3MDYyNCwt
-OTI4MDc5ODI1LDE5MjgxMDM3MjUsLTM4OTAyNjE5NCwtNDI3NT
-Q2MzAxLC0xNTAzNDIyMzc0LDI3ODY0OTA0MiwxMzMwMTQzODU0
-LC0yMzM3MjQ4MDIsMTAwNjMwODI0Ml19
+eyJoaXN0b3J5IjpbMTMyMzg0NDgzOSwtMTU2ODk5MTE4LDU0Nz
+A2NDQ3MywxNzI2MjcxNjYyLDU4MzQ2OTMzMiwyMDQ5NzA2MjQs
+LTkyODA3OTgyNSwxOTI4MTAzNzI1LC0zODkwMjYxOTQsLTQyNz
+U0NjMwMSwtMTUwMzQyMjM3NCwyNzg2NDkwNDIsMTMzMDE0Mzg1
+NCwtMjMzNzI0ODAyLDEwMDYzMDgyNDJdfQ==
 -->
