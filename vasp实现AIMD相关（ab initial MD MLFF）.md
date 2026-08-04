@@ -139,6 +139,9 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 - **原生VASP MLFF，仅预测**：训练并重新调整力场后，仅用MLFF预测进行MD。该模式不生成新的从头数据，因此应仅在力场适用性确认后使用。设置：`ML_MODE = run`
 - **外部预训练力场，以GRACE为例**：使用 GRACE 等外部模型进行MD预测.设置：`ML_MODE = run` `ML_LMLFF = .TRUE.` `ML_TYPE = grace`
 
+**ML_ISTART**
+
+
 ## MLFF文件
 ### ML_AB
 该文件作为机器学习力场方法中的输入 ML_AB 和输出 ML_ABN 。它包含了之前计算的从头开始数据收集：布拉维矩阵、原子位置、能量、力和应力张量。
@@ -154,11 +157,11 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 通过处理 ML_LOGFILE 文件对机器学习结果进行分析。
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDIyMjM3MiwxMjU0MjcwNDc4LDc5Mz
-M5MTMzNCwtMzQwOTU0OTUyLDE0NDEyNDUzMzEsOTIwNjAxMzg0
-LDE4NTk0MDU2NjksLTIxMjEwODk3MDMsMTgzMTM4MTU4OCw3MT
-kyMDM1OTIsODMzNjU4Mzg1LC0xNTQwNTAwNjQ0LC0zMzk2NzA0
-MjAsLTg0MTY4NDA1NiwtMTM4NDcyNDAyMiwtMTYxNjg3MTM1MC
-wtMTU2ODk5MTE4LDU0NzA2NDQ3MywxNzI2MjcxNjYyLDU4MzQ2
-OTMzMl19
+eyJoaXN0b3J5IjpbLTUzOTk5MDQ2MywxMDcwMjIyMzcyLDEyNT
+QyNzA0NzgsNzkzMzkxMzM0LC0zNDA5NTQ5NTIsMTQ0MTI0NTMz
+MSw5MjA2MDEzODQsMTg1OTQwNTY2OSwtMjEyMTA4OTcwMywxOD
+MxMzgxNTg4LDcxOTIwMzU5Miw4MzM2NTgzODUsLTE1NDA1MDA2
+NDQsLTMzOTY3MDQyMCwtODQxNjg0MDU2LC0xMzg0NzI0MDIyLC
+0xNjE2ODcxMzUwLC0xNTY4OTkxMTgsNTQ3MDY0NDczLDE3MjYy
+NzE2NjJdfQ==
 -->
