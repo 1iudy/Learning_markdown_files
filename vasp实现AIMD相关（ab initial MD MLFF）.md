@@ -148,9 +148,10 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 该文件包含机器学习的力场，该力场用于仅预测模式 `ML_MODE = run`
 
 ### ML_LOGFILE
-该文件为日志文件，包含MLFF相关设置和运行结果。后处理相关内容ji'ben
+该文件为日志文件，包含MLFF相关设置和运行结果。后处理相关内容基本以此文件为主。
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzA3OTE0LDE4NTk0MDU2NjksLTIxMj
+eyJoaXN0b3J5IjpbOTIwNjAxMzg0LDE4NTk0MDU2NjksLTIxMj
 EwODk3MDMsMTgzMTM4MTU4OCw3MTkyMDM1OTIsODMzNjU4Mzg1
 LC0xNTQwNTAwNjQ0LC0zMzk2NzA0MjAsLTg0MTY4NDA1NiwtMT
 M4NDcyNDAyMiwtMTYxNjg3MTM1MCwtMTU2ODk5MTE4LDU0NzA2
