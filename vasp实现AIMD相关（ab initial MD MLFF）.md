@@ -151,9 +151,9 @@ $$ \mathbf{Y} = \mathbf{\Phi}\,\mathbf{w} $$
 该文件为日志文件，包含MLFF相关设置和运行结果。后处理相关内容基本以此文件为主。
 
 ## MLFF后处理
-tong'g
+通过处理 ML_LOGFILE 文件对机器学习结果进行分析。
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTk2MzgzOSwxNDQxMjQ1MzMxLDkyMD
+eyJoaXN0b3J5IjpbLTM0MDk1NDk1MiwxNDQxMjQ1MzMxLDkyMD
 YwMTM4NCwxODU5NDA1NjY5LC0yMTIxMDg5NzAzLDE4MzEzODE1
 ODgsNzE5MjAzNTkyLDgzMzY1ODM4NSwtMTU0MDUwMDY0NCwtMz
 M5NjcwNDIwLC04NDE2ODQwNTYsLTEzODQ3MjQwMjIsLTE2MTY4
