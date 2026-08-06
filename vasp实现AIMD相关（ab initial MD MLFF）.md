@@ -236,7 +236,19 @@ Maximum angular momentum quantum number of spherical harmonics used to expand at
 ...
 ```
 #### 3. 已有的第一性原理数据信息
-总结了 ML_AB we
+总结了 ML_AB 文件中的 ab initial 数据信息
+```
+* AVAILABLE AB INITIO DATA *****************************************************************************************************************
+
+Number of stored (maximum) ab initio structures:       114 (     1500)
+ * System   1 :       114 , name: "Si cubic diamond 2x2x2 super cell"
+ * System   2 :         0 , name: "Si cubic diamond 2x2x2 super cell"
+Maximum number of atoms per element:
+ * Element Si :        64
+
+********************************************************************************************************************************************
+```
+#### 4. 主循环信息
 
 
 ## MLFF 后处理
@@ -246,7 +258,7 @@ Maximum angular momentum quantum number of spherical harmonics used to expand at
 
 ## 参数优化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzkxODEwMywtMTAwNDE3NTM0Miw0OT
+eyJoaXN0b3J5IjpbMTY3MTQ4MDI1MiwtMTAwNDE3NTM0Miw0OT
 U2NDUyNDgsLTE2Nzg5Mzk1MzMsMTA3MDIyMjM3MiwxMjU0Mjcw
 NDc4LDc5MzM5MTMzNCwtMzQwOTU0OTUyLDE0NDEyNDUzMzEsOT
 IwNjAxMzg0LDE4NTk0MDU2NjksLTIxMjEwODk3MDMsMTgzMTM4
