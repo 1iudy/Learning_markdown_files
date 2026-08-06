@@ -235,7 +235,10 @@ Number of radial basis functions for atomic distribution for angular descriptors
 Maximum angular momentum quantum number of spherical harmonics used to expand atomic distributions    :             4     ML_LMAX2
 ...
 ```
-#### 
+#### 3. 已有的第一性原理数据信息
+总结了 ML_AB we
+
+
 ## MLFF 后处理
 通过处理 ML_LOGFILE 文件对机器学习结果进行分析。
 
@@ -243,7 +246,7 @@ Maximum angular momentum quantum number of spherical harmonics used to expand at
 
 ## 参数优化
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTQ4MzU0MiwtMTAwNDE3NTM0Miw0OT
+eyJoaXN0b3J5IjpbMTE4MzkxODEwMywtMTAwNDE3NTM0Miw0OT
 U2NDUyNDgsLTE2Nzg5Mzk1MzMsMTA3MDIyMjM3MiwxMjU0Mjcw
 NDc4LDc5MzM5MTMzNCwtMzQwOTU0OTUyLDE0NDEyNDUzMzEsOT
 IwNjAxMzg0LDE4NTk0MDU2NjksLTIxMjEwODk3MDMsMTgzMTM4
