@@ -393,7 +393,10 @@ grep ERR ML_LOGFILE > err.dat
 
 ## 在LAMMPS中使用MLFF
 需要在构建LAMMPS前使用VASPml补丁：[在LAMMPS中运行机器学习力场 - VASP维基](https://vasp.at/wiki/Running_machine-learned_force_fields_in_LAMMPS)
-
+'''
+pair_style vasp
+pair_coeff * * ML_FF Pb Br Cs
+ '''
 ## 使用AIMD数据集生成lammps机器学习势函数
 来源：[高熵合金的机器学习原子间潜能——ScienceDirect](https://www.sciencedirect.com/science/article/pii/S0022509624001054?via%3Dihub#refdata001)
 文章中使用多个温度下HEA的AIMD结构数据进行机器学习，通过三维点位的机器学习提取原子结构位置和元素类型特征，机器学习通过施加多个卷积层实现。
@@ -402,11 +405,11 @@ grep ERR ML_LOGFILE > err.dat
 文章使用MLFF训练结构进行MTP势函数训练并在lammps上使用。
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNDkxNDk0OSwtNjM5MDA1OTIwLC0xMD
-U5ODg5NTc2LC0xODUwMDIxNjA3LC0xMTE3NzU3MDgwLC03MTIz
-NDU4OTgsMTM2Njc5MTcxMiwxMjQ3OTA4NDcsLTE3MzY3ODMxND
-QsLTE4MTA5NjI0NzgsMTQzMTQzMDU0NiwtMTQ0NTUyMzgyMCwt
-MTAwNDE3NTM0Miw0OTU2NDUyNDgsLTE2Nzg5Mzk1MzMsMTA3MD
-IyMjM3MiwxMjU0MjcwNDc4LDc5MzM5MTMzNCwtMzQwOTU0OTUy
-LDE0NDEyNDUzMzFdfQ==
+eyJoaXN0b3J5IjpbMTkwOTk2MTk3MSwtNzE0OTE0OTQ5LC02Mz
+kwMDU5MjAsLTEwNTk4ODk1NzYsLTE4NTAwMjE2MDcsLTExMTc3
+NTcwODAsLTcxMjM0NTg5OCwxMzY2NzkxNzEyLDEyNDc5MDg0Ny
+wtMTczNjc4MzE0NCwtMTgxMDk2MjQ3OCwxNDMxNDMwNTQ2LC0x
+NDQ1NTIzODIwLC0xMDA0MTc1MzQyLDQ5NTY0NTI0OCwtMTY3OD
+kzOTUzMywxMDcwMjIyMzcyLDEyNTQyNzA0NzgsNzkzMzkxMzM0
+LC0zNDA5NTQ5NTJdfQ==
 -->
